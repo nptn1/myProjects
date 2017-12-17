@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:padding="15dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+        <!--Button android:id="@id/ChangeState" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="CHANGE STATE" style="@style/Button" /-->
+        <!--TextView android:id="@id/CurrentState" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/TitleText" /-->
+        <Space android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/space2" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <TextView android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/LoginDescription" style="@style/StandardText" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="USERNAME" style="@style/SmallTitleText" />
+        <!--EditText android:id="@+id/Username" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLength="50" android:inputType="text" style="@style/InputText" /-->
+        <Spinner
+            android:id="@+id/UserName_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="39dp"
+            style="@style/spinner_style"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="PASSWORD" style="@style/SmallTitleText" />
+        <EditText android:id="@+id/Password" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLength="50" android:inputType="textPassword" style="@style/InputText" />
+        <Space android:layout_gravity="fill" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="3.0" />
+
+        <Button
+            android:id="@+id/Login"
+            style="@style/LargeButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="butLogin"
+            android:text="@string/Login" />
+    </LinearLayout>
+    <ProgressBar android:id="@+id/loginProgressBar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="?android:attr/android:progressBarStyleSmall"   />
+</RelativeLayout>

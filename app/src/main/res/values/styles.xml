@@ -1,0 +1,77 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+        <style name="StandardText">
+            <item name="android:textSize">20dp</item>
+            <item name="android:textColor">#404040</item>
+            <!--item name="android:textSize">5dp</item-->
+        </style>
+        <style name="SmallText">
+            <item name="android:textSize">15dp</item>
+        </style>
+        <style name="InputText">
+            <item name="android:textSize">30dp</item>
+        </style>
+        <style name="ErrorText">
+            <item name="android:textColor">#e58080</item>
+            <!--item name="error">1</item-->
+        </style>
+        <style name="TitleText">
+            <item name="android:textSize">30dp</item>
+            <item name="android:textColor">#404040</item>
+            <!--item name="title">1</item-->
+        </style>
+        <style name="SubtitleText">
+            <item name="android:textSize">20dp</item>
+            <item name="android:textColor">#404040</item>
+            <!--item name="subtitle">1</item-->
+        </style>
+        <style name="SmallTitleText">
+            <item name="android:textSize">10dp</item>
+            <item name="android:textColor">#404040</item>
+        </style>
+        <style name="LoadStatusActive">
+            <item name="android:textSize">25dp</item>
+            <item name="android:textColor">#3d5afe</item>
+        </style>
+        <style name="LoadStatusInActive">
+            <item name="android:textSize">25dp</item>
+            <item name="android:textColor">#666666</item>
+        </style>
+        <style name="Button">
+            <item name="android:textSize">15dp</item>
+            <item name="android:textColor">#666666</item>
+            <item name="android:colorBackground">#b3b3b3</item>
+            <!--item name="dp2">60dp</item-->
+        </style>
+        <style name="LargeButton">
+            <item name="android:textSize">20dp</item>
+            <item name="android:textColor">#666666</item>
+            <!--item name="android:">80dp</item-->
+        </style>
+        <style name="HorizontalLine">
+            <item name="android:textColor">#d9d9d9</item>
+            <!--item name="pos">-1</item-->
+            <!--item name="dp">1dp</item-->
+            <!--item name="ind">true</item-->
+        </style>
+        <style name="spinner_style">
+            <item name="android:layout_width">match_parent</item>
+            <item name="android:layout_height">wrap_content</item>
+            <item name="android:background">@drawable/gradient_spinner</item>
+            <item name="android:layout_margin">10dp</item>
+            <item name="android:paddingLeft">8dp</item>
+            <item name="android:paddingRight">20dp</item>
+            <item name="android:paddingTop">5dp</item>
+            <item name="android:paddingBottom">5dp</item>
+            <item name="android:popupBackground">#DFFFFFFF</item>
+        </style>
+
+
+</resources>

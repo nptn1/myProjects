@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="au.com.timbersmart.logmanagement.LoginActivity">
+    <item
+        android:id="@+id/DBSettings"
+        android:title="DB Settings" />
+</menu>

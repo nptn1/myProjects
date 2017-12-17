@@ -1,0 +1,54 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <!-- NOTE: EditTextPreference accepts EditText attributes. -->
+    <!-- NOTE: EditTextPreference's summary should be set to its value by the activity code. -->
+    <EditTextPreference
+        android:capitalize="words"
+        android:inputType="textCapWords"
+        android:key="txtDBHostSettings"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_db_host_settings" />
+
+    <EditTextPreference
+        android:capitalize="words"
+        android:inputType="textCapWords"
+        android:key="txtDBPortSettings"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_db_port_settings" />
+
+    <EditTextPreference
+        android:capitalize="words"
+        android:inputType="textCapWords"
+        android:key="txtDBInstanceSettings"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_db_instance_settings" />
+
+    <EditTextPreference
+        android:capitalize="words"
+        android:inputType="textCapWords"
+        android:key="txtDBUserSettings"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_db_user_settings" />
+
+    <EditTextPreference
+        android:inputType="textPassword"
+        android:key="txtDBPasswordSettings"
+        android:password="true"
+        android:title="@string/pref_title_db_password_settings" />
+
+
+    <Preference
+        android:icon="@drawable/ic_sync_black_24dp"
+        android:key="buttTestDBConn"
+        android:summary="* Click Here *"
+        android:title="Test Connection" />
+</PreferenceScreen>
